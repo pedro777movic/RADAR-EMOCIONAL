@@ -27,7 +27,7 @@ export function CtaSection() {
           </Button>
 
           <div className="mt-10 mx-auto max-w-md">
-            <p className="text-base text-center font-medium text-foreground/90">Dentro do aplicativo Radar Emocional, você terá:</p>
+            <p className="text-base text-center font-medium text-foreground/90">Dentro do seu aplicativo Radar Emocional, você terá:</p>
             <ul className="mt-4 space-y-2 text-left">
               {features.map((feature) => (
                 <li key={feature} className="flex items-start gap-2">
