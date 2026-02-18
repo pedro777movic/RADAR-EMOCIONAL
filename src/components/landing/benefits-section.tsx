@@ -23,10 +23,6 @@ const benefits = [
     icon: <Smile className="size-8 text-primary" />,
     text: 'Como sair da posição de ansiedade',
   },
-  {
-    icon: <BrainCircuit className="size-8 text-primary" />,
-    text: 'Como recuperar o controle emocional',
-  },
 ];
 
 export function BenefitsSection() {
