@@ -76,28 +76,22 @@ export function MechanismSection() {
           </div>
           <div className="relative mt-16 mx-auto max-w-3xl">
               <div className="absolute left-0 top-5 hidden h-0.5 w-full bg-white/10 md:block" aria-hidden="true"></div>
-              <div className="relative grid grid-cols-1 gap-12 text-center md:grid-cols-4">
+              <div className="relative grid grid-cols-1 gap-12 text-center md:grid-cols-3">
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         1
-                    </div>
-                    <p className="mt-4 text-muted-foreground">Você acessa o aplicativo</p>
-                </div>
-                <div>
-                    <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
-                        2
                     </div>
                     <p className="mt-4 text-muted-foreground">Responde perguntas rápidas</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
-                        3
+                        2
                     </div>
                     <p className="mt-4 text-muted-foreground">Recebe seu diagnóstico</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
-                        4
+                        3
                     </div>
                     <p className="mt-4 text-muted-foreground">Aplica os ajustes recomendados</p>
                 </div>
