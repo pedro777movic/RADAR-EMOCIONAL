@@ -16,6 +16,9 @@ export function CtaSection() {
     <section className="w-full py-20 sm:py-32">
       <div className="container mx-auto max-w-4xl px-4 text-center">
         <MotionWrapper>
+          <p className="font-script text-3xl text-white transform -rotate-12 -mb-4 [text-shadow:0_0_8px_#fff,0_0_12px_#fff]">
+            APP
+          </p>
           <h3 className="font-headline text-4xl sm:text-5xl font-black text-accent mb-6 tracking-tight transform -rotate-2 [text-shadow:0_0_10px_hsl(var(--accent)),2px_2px_2px_rgba(0,0,0,0.3)] [-webkit-text-stroke:0.5px_red]">
             Seu Radar Emocional
           </h3>
