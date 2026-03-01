@@ -68,6 +68,15 @@ export default function RootLayout({
         />
         {/* End PIXEL UTMIFY */}
 
+        {/* UTMIFY UTM CAPTURE SCRIPT */}
+        <Script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          strategy="afterInteractive"
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+        />
+        {/* End UTMIFY UTM CAPTURE SCRIPT */}
+
         {children}
         <Toaster />
       </body>
