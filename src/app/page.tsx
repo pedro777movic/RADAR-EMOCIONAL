@@ -10,6 +10,7 @@ import { MechanismSection } from '@/components/landing/mechanism-section';
 import { RecognitionSection } from '@/components/landing/recognition-section';
 import { TargetAudienceSection } from '@/components/landing/target-audience-section';
 import { TruthSection } from '@/components/landing/truth-section';
+import { AboutSection } from '@/components/landing/about-section';
 import { GuidedReadingProgress } from '@/components/guided-reading/guided-reading-progress';
 import { DiagnosisReadyModal } from '@/components/guided-reading/diagnosis-ready-modal';
 
@@ -37,8 +38,6 @@ export default function Home() {
           if (entry.isIntersecting) {
             const section = sections.find((s) => s.ref.current === entry.target);
             if (section) {
-              // NOTE: Firebase event 'guided_read_section_view' would be triggered here.
-              // NOTE: Firebase event 'guided_read_progress' would be triggered here.
               setProgress((prev) => Math.max(prev, section.progress));
             }
           }
@@ -66,13 +65,10 @@ export default function Home() {
 
   useEffect(() => {
     if (progress === 100) {
-      // NOTE: Firebase event 'guided_read_complete' would be triggered here.
       const timer = setTimeout(() => setIsModalOpen(true), 500); // Small delay for effect
       return () => clearTimeout(timer);
     }
   }, [progress]);
-
-  // NOTE: The 'enable_guided_read' Remote Config flag would be checked here to conditionally render the feature.
 
   return (
     <>
@@ -95,6 +91,7 @@ export default function Home() {
         <div ref={section4Ref}>
           <CtaSection />
           <GuaranteeSection />
+          <AboutSection />
         </div>
         <Footer />
       </div>
