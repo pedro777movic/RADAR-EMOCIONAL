@@ -25,7 +25,7 @@ export function CtaSection() {
           </h3>
           <p className="mb-8 mx-auto max-w-2xl text-sm text-muted-foreground leading-relaxed">
             Uma ferramenta criada para revelar o padrão emocional invisível que pode estar afetando a dinâmica da relação. 
-            Você responde algumas perguntas e recebe um diagnóstico claro da situação, além de orientações práticas para reposicionar a dinâmica emocional.
+            Você recebe um diagnóstico claro da situação, além de orientações práticas para reposicionar a dinâmica emocional.
           </p>
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
             Você pode continuar tentando adivinhar.
