@@ -13,14 +13,27 @@ export function GuaranteeSection() {
             </div>
           </div>
           <h2 className="mt-8 font-headline text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-            Risco Realmente Baixo
+            Risco realmente baixo.
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-            O valor é menor que uma saída comum. Você acessa instantaneamente. Lê. Aplica. Avalia por si mesma.
-          </p>
-          <p className="mt-4 text-sm font-bold uppercase tracking-widest text-foreground">
-            Sem assinatura. Sem cobranças recorrentes. Sem surpresas.
-          </p>
+          <div className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground space-y-4">
+            <p>
+              O acesso ao Radar Emocional custa menos que uma saída comum.
+            </p>
+            <p>
+              Você acessa imediatamente, entende o padrão da situação e decide por si mesma se faz sentido aplicar.
+            </p>
+          </div>
+          <div className="mt-8 space-y-1">
+            <p className="text-sm font-bold uppercase tracking-widest text-foreground">
+              Sem assinatura.
+            </p>
+            <p className="text-sm font-bold uppercase tracking-widest text-foreground">
+              Sem cobranças recorrentes.
+            </p>
+            <p className="text-sm font-bold uppercase tracking-widest text-foreground">
+              Sem surpresas.
+            </p>
+          </div>
         </MotionWrapper>
       </div>
     </section>

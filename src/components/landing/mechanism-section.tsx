@@ -71,29 +71,35 @@ export function MechanismSection() {
         <MotionWrapper className="mt-24">
           <div className="text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-              Como Funciona
+              Como funciona o Radar Emocional
             </h2>
           </div>
-          <div className="relative mt-16 mx-auto max-w-3xl">
+          <div className="relative mt-16 mx-auto max-w-4xl">
               <div className="absolute left-0 top-5 hidden h-0.5 w-full bg-white/10 md:block" aria-hidden="true"></div>
-              <div className="relative grid grid-cols-1 gap-12 text-center md:grid-cols-3">
+              <div className="relative grid grid-cols-1 gap-12 text-center md:grid-cols-4">
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         1
                     </div>
-                    <p className="mt-4 text-muted-foreground">Você responde perguntas rápidas</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você responde algumas perguntas rápidas sobre a situação atual</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         2
                     </div>
-                    <p className="mt-4 text-muted-foreground">Recebe seu diagnóstico</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">O aplicativo identifica o padrão emocional da relação</p>
                 </div>
                 <div>
                     <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
                         3
                     </div>
-                    <p className="mt-4 text-muted-foreground">Aplica os ajustes recomendados</p>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Você recebe um diagnóstico claro do que está acontecendo</p>
+                </div>
+                <div>
+                    <div className="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary text-xl font-bold text-primary-foreground shadow-[0_0_15px_theme(colors.primary/0.5)]">
+                        4
+                    </div>
+                    <p className="mt-4 text-sm text-muted-foreground px-2">Recebe orientações práticas para reposicionar a dinâmica</p>
                 </div>
               </div>
           </div>
