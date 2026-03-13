@@ -30,7 +30,7 @@ export function RecognitionSection() {
                 <p className="mt-6 text-sm text-muted-foreground leading-relaxed">
                   Para ajudar a entender esse padrão, criamos o Radar Emocional.
                   <br /><br />
-                  Um aplicativo digital que analisa sua situação atual através de algumas perguntas rápidas e revela o padrão emocional que pode estar acontecendo na relação.
+                  Um aplicativo digital que analisa sua situação atual e revela o padrão emocional que está acontecendo na relação.
                 </p>
             </div>
         </MotionWrapper>
